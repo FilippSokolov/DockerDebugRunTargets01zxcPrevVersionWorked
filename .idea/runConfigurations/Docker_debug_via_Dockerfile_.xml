@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Docker_debug_via_Dockerfile " type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="buildCliOptions" value="" />
+        <option name="command" value="java -jar pass.jar" />
+        <option name="containerName" value="pass_via_dockerfile" />
+        <option name="contextFolderPath" value="out/artifacts/pass" />
+        <option name="entrypoint" value="" />
+        <option name="imageTag" value="" />
+        <option name="commandLineOptions" value="" />
+        <option name="sourceFilePath" value="docker/debug_via_Dockerfile/Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
