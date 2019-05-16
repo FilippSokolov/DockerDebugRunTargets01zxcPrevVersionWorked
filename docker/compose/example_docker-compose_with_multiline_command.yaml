@@ -1,0 +1,9 @@
+version: "2"
+services:
+  app_miltiline:
+    build:
+      dockerfile: docker/compose/Dockerfile_openjdk8
+      context: ../../
+    command: >
+      bash -c "cd ./out/artifacts/helloworld&&
+      java -jar helloworld.jar"

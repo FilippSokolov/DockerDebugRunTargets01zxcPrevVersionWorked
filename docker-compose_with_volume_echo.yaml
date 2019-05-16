@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app_root:
+    volumes:
+      - ./out/artifacts/echo/:/tmp/
+    build:
+      dockerfile: docker/compose/Dockerfile_openjdk8
+      context: .
+    command: java -jar echo.jar
+

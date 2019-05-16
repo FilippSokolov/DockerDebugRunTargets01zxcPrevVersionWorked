@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app_pass_console:
+    volumes:
+      - ./out/artifacts/pass/:/tmp/
+    build:
+      dockerfile: docker/compose/Dockerfile_openjdk8
+      context: .
+    command: java -jar pass.jar
+
