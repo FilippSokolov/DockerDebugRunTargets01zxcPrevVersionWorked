@@ -8,7 +8,7 @@
     <option name="PORT" value="5073" />
     <option name="AUTO_RESTART" value="false" />
     <method v="2">
-      <option name="com.intellij.docker.debug.DockerBeforeRunTask" run-config="Docker_debug_via_Dockerfile " />
+      <option name="com.intellij.docker.debug.DockerBeforeRunTask" run-config="docker_Dockerfile_pass" />
     </method>
   </configuration>
 </component>

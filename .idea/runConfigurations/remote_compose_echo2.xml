@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="remote_compose_helloworld" type="Remote">
+  <configuration default="false" name="remote_compose_echo" type="Remote">
     <module name="DockerDebug_for_screencast" />
     <option name="USE_SOCKET_TRANSPORT" value="true" />
     <option name="SERVER_MODE" value="false" />
@@ -12,7 +12,7 @@
       <option name="LOCAL" value="false" />
     </RunnerSettings>
     <method v="2">
-      <option name="com.intellij.docker.debug.DockerBeforeRunTask" run-config="docker-compose_helloworld" />
+      <option name="com.intellij.docker.debug.DockerBeforeRunTask" compose-service="app_echo" run-config="docker_compose_echo" />
     </method>
   </configuration>
 </component>

@@ -1,15 +1,15 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="docker-compose_pass" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+  <configuration default="false" name="docker_Dockerfile_pass" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
     <deployment type="dockerfile">
       <settings>
         <option name="buildCliOptions" value="" />
-        <option name="command" value="java -jar pass.jar " />
-        <option name="containerName" value="pass" />
+        <option name="command" value="java -jar pass.jar" />
+        <option name="containerName" value="pass_via_dockerfile" />
         <option name="contextFolderPath" value="out/artifacts/pass" />
         <option name="entrypoint" value="" />
         <option name="imageTag" value="" />
         <option name="commandLineOptions" value="" />
-        <option name="sourceFilePath" value="docker-compose_with_volume_pass.yaml" />
+        <option name="sourceFilePath" value="docker/debug_with_Dockerfile/Dockerfile" />
       </settings>
     </deployment>
     <method v="2" />

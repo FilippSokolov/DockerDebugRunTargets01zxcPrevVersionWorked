@@ -1,15 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="docker-compose_echo" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-    <deployment type="dockerfile">
+  <configuration default="false" name="docker_compose_echo" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+    <deployment type="docker-compose.yml">
       <settings>
-        <option name="buildCliOptions" value="" />
-        <option name="command" value="java -jar echo.jar " />
-        <option name="containerName" value="echo" />
-        <option name="contextFolderPath" value="out/artifacts/echo" />
-        <option name="entrypoint" value="" />
-        <option name="imageTag" value="" />
-        <option name="commandLineOptions" value="" />
-        <option name="sourceFilePath" value="docker-compose_with_volume_echo.yaml" />
+        <option name="commandLineOptions" value="--build" />
+        <option name="sourceFilePath" value="docker-compose.yaml" />
       </settings>
     </deployment>
     <method v="2" />

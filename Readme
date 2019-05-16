@@ -2,8 +2,8 @@ This simple project demonstrates remote docker debug in Intellij Idea.
 
 Steps for remote debug of the app, which requests for a new password
 
-1. create a compose file with volume bindings: docker-compose_with_volume_pass.yaml
-2. create a docker-compose run configuration with this file
+1. create a Dockerfile: \docker\debug_with_Dockerfile\Dockerfile
+2. create a Dockerfile run configuration with this file, point context folder as
 3. create a remote run configuration to debug the app
    -via Create/Edit run configurations
    -via gutter near the "command" key in the Editor
