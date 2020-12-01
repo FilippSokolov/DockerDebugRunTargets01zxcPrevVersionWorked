@@ -1,6 +1,7 @@
-FROM openjdk:8
+FROM maven:3-jdk-11
+#FROM openjdk:8
 COPY . /tmp
-WORKDIR /tmp
+WORKDIR /tmp/out/artifacts/pass
 #It is the console app for entering a new password
 CMD ["java", "-jar", "pass.jar"]
 

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="SSH" type="ssh/sftp">
+        <config>
+          <option name="projectRootOnTarget" value="/tmp/mix01" />
+          <option name="serverName" value="jetbrains@172.31.142.243:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/lib/jvm/java-8-openjdk-amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-11" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-112" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="MavenRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-113" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="homePath" value="/usr/local/openjdk-11" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-114" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-115" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-116" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-117" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="WSL" type="wsl">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="WSL2" type="wsl">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+        </config>
+      </target>
+      <target name="maven:3-jdk-118" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="homePath" value="/usr/local/openjdk-11" />
+            <option name="javaVersionString" value="11.0.9" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-119" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1110" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1111" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1112" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1113" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1114" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="javaVersionString" value="11.0.9" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="SSH2" type="ssh/sftp">
+        <config>
+          <option name="useRsync" value="true" />
+        </config>
+      </target>
+      <target name="SSH3" type="ssh/sftp">
+        <config>
+          <option name="projectRootOnTarget" value="/tmp/test3" />
+          <option name="serverName" value="jetbrains@172.31.142.243:22 password" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+      <target name="maven:3-jdk-1115" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="maven:3-jdk-11" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="/usr/share/maven" />
+            <option name="versionString" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

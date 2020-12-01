@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="helloworld">
-    <output-path>$PROJECT_DIR$/out/artifacts/helloworld</output-path>
-    <root id="archive" name="helloworld.jar">
-      <element id="module-output" name="DockerDebug_for_screencast" />
-    </root>
-  </artifact>
-</component>
