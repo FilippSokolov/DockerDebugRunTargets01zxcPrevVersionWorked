@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DockerDebug_for_screencast" target="8" />
+      <module name="DockerDebug_for_screencast" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,6 @@
-FROM maven:3-jdk-11
-#FROM openjdk:8
+#FROM maven:3-jdk-1
+#FROM opavlova/tomcat
+FROM openjdk:8
 COPY . /tmp
 WORKDIR /tmp/out/artifacts/pass
 #It is the console app for entering a new password
